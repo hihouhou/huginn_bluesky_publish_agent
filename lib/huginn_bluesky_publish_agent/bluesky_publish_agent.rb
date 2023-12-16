@@ -9,8 +9,6 @@ module Agents
       <<-MD
       The Bluesky Publish Agent publishes posts from the events it receives.
 
-      To be able to use this Agent you need to authenticate with Twitter with [twurl](https://github.com/twitter/twurl).
-
       You must also specify a `message` parameter, you can use [Liquid](https://github.com/huginn/huginn/wiki/Formatting-Events-using-Liquid) to format the message.
       Additional parameters can be passed via `parameters`.
 
